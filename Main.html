@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/logo.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="sidebar">
+            <div class="sidebar-option1">
+                <img src="./images/top logo.png" alt="Spotify">
+                <div class="nav-op1">
+                <i class="fa-solid fa-house"></i>
+                <a href="#">Home</a>
+                </div>
+                <div class="nav-op2">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="sidebar-option2">
+                <div class="your-library">
+                <div class="lib">
+                <img src="./images/library_icon.png" alt="library">
+                <a href="#">Your library</a>
+                </div>
+                <div class="explore">
+                <i class="fa-solid fa-plus"></i>
+                </div>
+                </div>
+                <div class="library-content">
+                    <div class="playlist">
+                        <p class="Create">Create your first playlist</p>
+                        <p class="desc">It's easy, we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="podcast">
+                        <p class="Create">Let's find some podcasts to follow</p>
+                        <p class="desc">We'll keep you updated on new episodes</p>
+                        <button class="badge2">Browse podcasts</button>
+                    </div>
+                </div>
+                <div class="foot">
+                    <a href="#">Legal</a>
+                    <a href="#">Safety&Privacy Center</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Cookies</a>
+                    <a href="#">About Ads</a>
+                    <a href="#">Accessibility</a>
+                </div>
+                <a href="#">Cookies</a>
+                <button class="badge3">English</button>
+            </div>
+        </div>
+        <div class="library">
+            <div class="sticky-nav">
+                <div class="back-next">
+                <img src="images/backward_icon.png" alt="back">
+                <img src="images/forward_icon.png" alt="next">
+                </div>
+                <div class="other-element">
+                    <button class="explore-pre">Explore Premium</button>
+                    <button class="install">Install App</button>
+                    <i class="fa-solid fa-user"></i>
+                </div>
+            </div>
+        <div class="recent">
+            <h2>Recently Played</h2>
+            <div class="card">
+                <img src="images/card1img.jpeg" alt="card">
+                <h4>Top 50-Global</h4>
+                <p>Your daily update of the most played music around...</p>
+            </div>
+        </div>
+        <div class="your-fav">
+            <h2>Your Favourite</h2>
+            <div class="cards">
+            <div class="card">
+                <img src="images/card2img.jpeg" alt="card">
+                <h4>Mahiye jinna sohana</h4>
+                <p>Darshan Raval</p>
+            </div>
+            <div class="card">
+                <img src="images/card3img.jpeg" alt="card">
+                <h4>Mere Paas Tum Ho</h4>
+                <p>Rahat Fateh Ali Khan
+                </p>
+            </div>
+            <div class="card">
+                <img src="images/card4img.jpeg" alt="card">
+                <h4>Naa Ready</h4>
+                <p>Vijay, Asal Kolaar, Anirudh Ravichander</p>
+            </div>
+            </div>
+        </div>
+        <div class="top">
+            <h2>Global & Indian Weekly Top Song</h2>
+            <div class="cards">
+            <div class="card">
+                <img src="images/card5img.jpeg" alt="card">
+                <h4>Top Songs Global (weekly)</h4>
+                <p>Your weekly update...</p>
+            </div>
+            <div class="card">
+                <img src="images/card6img.jpeg" alt="card">
+                <h4>Top Songs India (weekly)</h4>
+                <p>Your weekly update...</p>
+            </div>
+            </div>
+        </div>
+        </div>
+        <div class="media-player">
+            <div class="album"></div>
+            <div class="player">
+            <div class="playback-control">
+                <img src="images/player_icon1.png" alt=""class="player-icon">
+                <img src="images/player_icon2.png" alt=""class="player-icon">
+                <img src="images/player_icon3.png" alt="play"class="player-icon" style="opacity: 1; height: 2em;">
+                <img src="images/player_icon4.png" alt=""class="player-icon">
+                <img src="images/player_icon5.png" alt=""class="player-icon">
+            </div>
+            <div class="playback-bar">
+                <span class="current" style="margin-right: .4em;">0:00</span>
+                <input type="range" max="100" min="0" class="progress-bar" step="1">
+                <span class="total" style="margin-left: .4em;">3:33</span>
+            </div>
+        </div>
+        <div class="control"></div>
+        </div>
+    </main>
+</body>
+</html> 
